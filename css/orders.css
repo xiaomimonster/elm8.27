@@ -1,0 +1,228 @@
+@import url('base.css');
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #F4F4F4;
+}
+/*头部开始*/
+.header{
+	width: 100%;
+	height: 0.92rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	overflow: hidden;
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 900;
+}
+.header-c{
+	width: 92%;
+	height: 0.72rem;
+	margin: 0.1rem auto;
+} 
+.header-c img{
+	width: 0.34rem;
+	height: 0.54rem;
+	float: left;
+	margin-top: 0.09rem;
+}
+.header-c span{
+	display: block;
+	width: auto;
+	height: 0.72rem;
+	margin: 0 auto;
+	font-size: 0.44rem;
+	font-weight: 700;
+	color: #fff;
+	line-height: 0.72rem;
+	text-align: center;
+} 
+/*头部结束*/
+.Roll{
+	width: 100%;
+	height: 10.92rem;
+	margin-top: 0.92rem;
+	overflow-y: auto;
+}
+.Roll::-webkit-scrollbar{
+	height: 0;
+	width: 0;
+}
+.roll{
+	width: 7.5rem;
+	height: auto;
+}
+.roll-card{
+	width: 7.5rem;
+	height: 3.14rem;
+	margin-top: 0.29rem;
+	overflow: hidden;
+	background: #fff;
+}
+.roll-card-t{
+	width: 6.92rem;
+	height: 1.86rem;
+	margin: 0 auto;
+	margin-top: 0.14rem;
+	border-bottom: 0.01rem solid #F7F7F7;
+}
+.roll-card-t img{
+	width: 0.64rem;
+	height: 0.64rem;
+	float:left;
+	margin-top: 0.15rem;
+}
+.roll-card-t-r{
+	width: 6.06rem;
+	height: 1.86rem;
+	float: right;
+}
+.roll-card-t-r-t{
+	width: 100%;
+	height: 0.96rem;
+	border-bottom: 0.01rem solid #F7F7F7;
+	/*background: yellow;*/
+}
+.roll-text{
+	width: 100%;
+	height: 0.48rem;
+}
+.roll-text h3{
+	width:3rem;
+	height: 0.48rem;
+	float: left;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.38rem;
+	font-weight: 700;
+	color:#333;
+	line-height: 0.48rem;
+}
+.roll-text i{
+	width:0.1rem;
+	height: 0.48rem;
+	float: left;
+	color:#ACACAC;
+	font-size: 0.22rem;
+	line-height: 0.48rem;
+}
+.roll-text span{
+	width:auto;
+	height: 0.48rem;
+	float: right;
+	font-size: 0.28rem;
+	font-weight: 500;
+	color:#333;
+	line-height: 0.48rem;
+}
+.roll-card-t-r-t p{
+	width: auto;
+	height: 0.26rem;
+	font-size: 0.22rem;
+	color:#ACACAC;
+	line-height: 0.26rem;
+	margin-top: 0.1rem;
+}
+.roll-card-t-r-b{
+	width: 100%;
+	height: 0.92rem;
+}
+.roll-card-t-r-b p{
+	width: auto;
+	height: 0.92rem;
+	float: left;
+	font-size: 0.28rem;
+	color:#666;
+	line-height: 0.96rem;
+}
+.roll-card-t-r-b span{
+	width: auto;
+	height: 0.92rem;
+	float: right;
+	font-size: 0.32rem;
+	font-weight: 700;
+	color:#333;
+	line-height: 0.96rem;
+}
+.roll-card-b{
+	width: 6.92rem;
+	height: 1rem;
+	margin: 0 auto;
+}
+.roll-card-b button{
+	width: 1.46rem;
+	height: 0.59rem;
+	float: right;
+	background: #fff;
+	border: 0.01rem solid #008EFF;
+	margin-top: 0.26rem;
+	font-size: 0.28rem;
+	color: #008EFF;
+	line-height: 0.59rem;
+	text-align: center;
+}
+/*底部导航栏开始*/
+.bottom{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	position: fixed;
+	left: 29;
+	bottom: -0.03rem;	
+	z-index: 900;
+	border-top: 0.02rem solid #CBCBCB;
+}
+.bottom ul{
+	width: 92%;
+	height: 1.5rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.bottom ul li{
+	width: 1.7rem;
+	height: 1.4rem;
+}
+.bottom ul li a{
+	display: inline-block;
+	width:100%;
+	height: 100%;
+}
+.bottom ul li a i{
+	display: block;
+	width: 0.52rem;
+	height: 0.52rem;
+	margin: 0.3rem auto 0;
+	font-size: 0.52rem;
+	color: #878787;
+	line-height: 0.52rem;
+	text-align: center;
+}
+.bottom ul li:nth-child(3) a i{
+	color: #0093FF;
+}
+.bottom ul li a span{
+	display: block;
+	width: 1rem;
+	height: 0.42rem;
+	margin: 0.06rem auto;
+	font-size: 0.28rem;
+	color: #878787;
+	line-height: 0.42rem;
+	text-align: center;
+}
+.bottom ul li:nth-child(3) a span{
+	color: #0093FF;
+}
+/*底部导航栏结束*/

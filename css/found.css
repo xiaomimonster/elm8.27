@@ -1,0 +1,353 @@
+@import url("base.css");
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	
+}
+body{
+	background: #F5F5F5;
+}
+/*发现头部开始*/
+.header{
+	width: 100%;
+	height: 0.92rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	overflow: hidden;
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 900;
+}
+.header-c{
+	width: 92%;
+	height: 0.72rem;
+	margin: 0.1rem auto;
+} 
+.header-c img{
+	width: 0.34rem;
+	height: 0.54rem;
+	float: left;
+	margin-top: 0.09rem;
+}
+.header-c span{
+	display: block;
+	width: 1.4rem;
+	height: 0.72rem;
+	margin: 0 auto;
+	font-size: 0.44rem;
+	font-weight: 700;
+	color: #fff;
+	line-height: 0.72rem;
+	text-align: center;
+} 
+/*发现头部结束*/
+/*金币商城开始*/
+.mall{
+	width: 100%;
+	height: 4.1rem;
+	background: #fff;
+	margin-top: 0.92rem;
+}
+.mall-c{
+	width: 92%;
+	height: 4.1rem;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+.mall-l{
+	width: 3.43rem;
+	height: 4.1rem;
+	/*background: green;*/
+	float: left;
+	border-right: 0.04rem solid #F5F5F5;
+	
+}
+.mall-text{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.mall-c .mall-text{
+	margin-left: 0;
+}
+.mall-r .mall-text{
+	margin-left: 0.29rem;
+}
+.mall-text h2{
+	display: block;
+	width: auto;
+	height: 0.54rem;
+	margin-top: 0.3rem;
+	font-size: 0.36rem;
+	color: rgb(255,153,0);
+	line-height: 0.54rem;
+	font-weight: 500;
+}
+.mall-r-t h2{
+	color: #30B1E4;
+}
+.mall-r-b h2{
+	color: #EF736E;
+}
+.mall-text span{
+	display: block;
+	width: auto;
+	height: 0.4rem;
+	/*background: green;*/
+	margin-top: 0.1rem;
+	font-size: 0.24rem;
+	color: #999;
+	font-weight: 400;
+}
+.mall-l img{
+	width: 2rem;
+	height: 2rem;
+	float: right;
+	margin-top: 0.4rem;
+}
+.mall-r{
+	width: 3.43rem;
+	height: 4.1rem;
+	/*background: pink;*/
+	float: left;
+}
+.mall-r-t{
+	width: 3.44rem;
+	height: 2.04rem;
+	/*background: pink;*/
+	border-bottom: 0.03rem solid #F5F5F5;
+}
+.mall-r img{
+	width: 1.26rem;
+	height: 1.26rem;
+	/*background: #fff;*/
+	float: right;
+	margin-top: 0.3rem;
+}
+.mall-r-b{
+	width: 3.44rem;
+	height: 2.04rem;
+	/*background: pink;*/
+}
+/*金币商城结束*/
+/*限时好礼开始*/
+.gifts{
+	width: 100%;
+	height: 6.4rem;
+	background: #fff;
+	margin-top: 0.4rem;
+}
+.gifts-c{
+	width: 6.92rem;
+	height: 8.54rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.gifts-1{
+	width: 3.7rem;
+	height: 0.6rem;
+	margin: 0.3rem auto 0;
+}
+.gifts-1 .line{
+	width: 0.6rem;
+	height: 0.02rem;
+	background: #898989;
+	float: left;
+	margin-top: 0.29rem;
+}
+.gifts-1 i{
+	display: block;
+	width: 0.4rem;
+	height: 0.6rem;
+	/*background: #fff;*/
+	float: left;
+	line-height: 0.6rem;
+	text-align: center;
+	font-size: 0.46rem;
+	color: #F94843;
+	/*margin-left: 0.1rem;*/
+}
+.gifts-1 span{
+	display: block;
+	width: auto;
+	height: 0.6rem;
+	/*background: #FFFFFF;*/
+	float: left;
+	font-size: 0.4rem;
+	font-weight: 400;
+	color: #333333;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-left: 0.3rem;
+	margin-right: 0.2rem;
+}
+.gifts-c p{
+	width:auto;
+	height: 0.38rem;
+	font-size: 0.24rem;
+	font-weight: 400;
+	color: #999;
+	line-height: 0.38rem;
+	text-align: center;
+	margin: 0 auto;
+}
+.gifts-3{
+	width: 100%;
+	height: 3.2rem;
+	/*background: pink;*/
+	margin-top: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.gifts-3 li,.gifts-3 li a{
+	display: block;
+	width: 2.26rem;
+	height: 3.2rem;
+	/*background: yellow;*/
+	overflow: hidden;
+	position: relative;
+}
+.gifts-3 li a img{
+	width: 2.26rem;
+	height: 2.26rem;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.gifts-3-li-t{
+	width:1.18rem;
+	height: 0.36rem;
+	background: #413D3C;
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.36rem;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+} 
+.gifts-3-li-b{
+	width:100%;
+	height: 1.2rem;
+	margin-top: 2.26rem;
+}
+.gifts-3-li-b p{
+	width: 100%;
+	height: 0.5rem;
+	color: #333;
+	font-size: 0.28rem;
+	font-weight: 400;
+	text-align: left;
+	line-height: 0.5rem;
+}
+.gifts-3-li-b span{
+	display: inline-block;
+	width: auto;
+	height: 0.5rem;
+	color: #FF5D45;
+	font-size: 0.28rem;
+	font-weight: 400;
+	float: left;
+	line-height: 0.5rem;
+}
+.gifts-3-li-b del{
+	display: inline-block;
+	width: auto;
+	height: 0.5rem;
+	color: #AAAAAA;
+	float: left;
+	font-size: 0.2rem;
+	font-weight: 400;
+	line-height: 0.5rem;
+	margin-left: 0.02rem;	
+}
+.gifts-4{
+	width: 1.32rem;
+	height: 0.6rem;
+	margin-top: 0.6rem;
+	margin: 0.6rem auto 0rem;
+}
+.gifts-4 p{
+	width: auto;
+	height: 0.6rem;
+	font-size: 0.28rem;
+	font-weight: 500;
+	color: #AAAAAA;
+	line-height: 0.6rem;
+	text-align: center;
+	float:left;
+}
+.gifts-4 i{
+	display: block;
+	width: 0.14rem;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	font-weight: 500;
+	float:left;
+	color: #999;
+	line-height: 0.7rem;
+	text-align: center;
+	margin-left: 0.06rem;
+}
+/*限时好礼结束*/
+/*底部导航栏开始*/
+.bottom{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	position: fixed;
+	left: 29;
+	bottom: -0.03rem;	
+	z-index: 900;
+	border-top: 0.02rem solid #CBCBCB;
+}
+.bottom ul{
+	width: 92%;
+	height: 1.5rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.bottom ul li{
+	width: 1.7rem;
+	height: 1.4rem;
+}
+.bottom ul li a{
+	display: inline-block;
+	width:100%;
+	height: 100%;
+}
+.bottom ul li a i{
+	display: block;
+	width: 0.52rem;
+	height: 0.52rem;
+	margin: 0.3rem auto 0;
+	font-size: 0.52rem;
+	color: #878787;
+	line-height: 0.52rem;
+	text-align: center;
+}
+.bottom ul li:nth-child(2) a i{
+	color: #0093FF;
+}
+.bottom ul li a span{
+	display: block;
+	width: 1rem;
+	height: 0.42rem;
+	margin: 0.06rem auto;
+	font-size: 0.28rem;
+	color: #878787;
+	line-height: 0.42rem;
+	text-align: center;
+}
+.bottom ul li:nth-child(2) a span{
+	color: #0093FF;
+}
+/*底部导航栏结束*/

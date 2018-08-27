@@ -1,0 +1,507 @@
+@import url('base.css');
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #fff;
+}
+/*头部开始*/
+.header{
+	width: 100%;
+	height: 0.92rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	overflow: hidden;
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 900;
+}
+.header-c{
+	width: 92%;
+	height: 0.72rem;
+	margin: 0.1rem auto;
+} 
+.header-c img{
+	width: 0.34rem;
+	height: 0.54rem;
+	float: left;
+	margin-top: 0.09rem;
+}
+.header-c span{
+	display: block;
+	width: 1.4rem;
+	height: 0.72rem;
+	margin: 0 auto;
+	font-size: 0.44rem;
+	font-weight: 700;
+	color: #fff;
+	line-height: 0.72rem;
+	text-align: center;
+} 
+/*头部结束*/
+/*导航开始*/
+.tab{
+	width: 6.6rem;
+	height: 0.8rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	position: fixed;
+	top: 0.92rem;
+	left: 0;
+	overflow-x: auto;
+}
+.tab::-webkit-scrollbar{
+	height: 0;
+	width: 0;
+}
+.tab ul{
+	width: auto;
+	height: 0.8rem;
+	background: background: linear-gradient(90deg,#0af,#0085ff);
+	display: flex;
+}
+.tab ul li{
+	width: auto;
+	height: 0.65rem;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-right: 0.1rem;
+	flex-shrink: 0;
+	margin-right:0.5rem;
+}
+.tab ul li:first-child{
+	margin-left: 0.29rem;
+	font-weight: 900;
+	border-bottom: 0.04rem solid #fff;
+	
+}
+.tab ul li a:hover{
+	border-bottom: 0.04rem solid #fff;
+	font-weight: 900;
+}
+.tab ul li a{
+	display: block;
+	width: auto;
+	height: 0.65rem;
+	font-size: 0.3rem;
+	font-weight:500;
+	color: #FFFFFF;
+	line-height: 0.65rem;
+	text-align: center;
+}
+.tab-right{
+	width: 0.9rem;
+	height: 0.8rem;
+	background: #0089FF;
+	position: fixed;
+	top: 0.92rem;
+	right:0;
+}
+.tab-right i{
+	display: block;
+	width: 0.26rem;
+	height:0.26rem;
+	/*background:green;*/
+	margin: 0.27rem auto;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.26rem;
+	text-align: center;
+}
+/*导航结束*/
+/*套餐开始*/
+.Pac{
+	width: 100%;
+	height: 4.0rem;
+	margin-top:2.01rem;
+}
+.pac{
+	width: 6.92rem;
+	height: 4.0rem;
+	margin: 0 auto;
+}
+.pac-t{
+	width: 6.92rem;
+	height: 0.42rem;
+	margin-bottom: 0.2rem;
+}
+.pac-t h3{
+	width: auto;
+	height: 0.42rem;
+	float: left;
+	font-size: 0.34rem;
+	color: #333;
+	font-weight: 700;
+	line-height: 0.42rem;
+}
+.pac-t span{
+	width: auto;
+	height: 0.42rem;
+	float: right;
+	font-size: 0.28rem;
+	color: #666;
+	font-weight: 700;
+	line-height: 0.42rem;
+}
+.pac-b{
+	width: 6.92rem;
+	height: 3.44rem;
+	display: flex;
+	justify-content: space-between;
+}
+.pac-b li{
+	width: 2.2rem;
+	height: 3.44rem;
+}
+.pac-b li img{
+	width: 2.2rem;
+	height: 2.2rem;
+}
+.pac-b-text1{
+	width: 2.2rem;
+	height:0.34rem;
+	margin-top: 0.04rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.32rem;
+	color: #333;
+	font-weight: 700;
+	line-height: 0.34rem;
+}
+.pac-b-text2{
+	width: 2.2rem;
+	height:0.3rem;
+	margin-top: 0.04rem;
+	font-size: 0.22rem;
+	color: #999;
+	line-height: 0.3rem;
+}
+.pac-b-text3{
+	width: 2.2rem;
+	height:0.32rem;
+	margin-top: 0.1rem;
+}
+.pac-b-text3 span{
+	display: inline-block;
+	width: auto;
+	height: 0.32rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #333;
+	line-height: 0.32rem;
+}
+.pac-b-text3 del{
+	display: inline-block;
+	width: auto;
+	height: 0.32rem;
+	float: left;
+	font-size: 0.16rem;
+	color: #999;
+	line-height: 0.34rem;
+	margin-left: 0.2rem;
+	/*text-decoration: line-through;*/
+}
+/*综合排序开始*/
+.sort{
+	width: 92%;
+	height: 1rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.01rem solid #CBCBCB;
+}
+.sort li,.sort li a{
+	display: block;
+	width: auto;
+	height: 1rem;
+}
+.sort li:hover{
+	border-bottom: 0.01rem solid #666;
+}
+.sort li span{
+	display: inline-block;
+	width: auto;
+	height: 1rem;
+	float: left;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.32rem;
+	color: #666;
+}
+.sort li:nth-child(2) span{
+	color: #333333;
+	font-weight: bold;
+}
+.sort li:nth-child(4) span{
+	color: #898989;
+	font-weight: 600;
+}
+.sort li i{
+	display: inline-block;
+	width: 0.18rem;
+	height: 100%;
+	float: left;
+	line-height: 1rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #3B3B3B;
+	font-weight: 600;
+	margin-left: 0.1rem;
+}
+/*综合排序结束*/
+/*roll开始*/
+.Roll{
+	width: 100%;
+	height: 6.33rem;
+	overflow-y: auto;
+}
+.Roll::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+.list{
+	width: 92%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.list-li{
+	width: 100%;
+	height: 3.4rem;
+	border-bottom: 0.01rem solid #F5F5F5;
+	flex-shrink: 0;
+}
+.list-l{
+	width: 1.4rem;
+	height: 1.4rem;
+	float: left;
+	margin-top: 0.4rem;
+	position: relative;
+}
+.list-l img{
+	width: 1.4rem;
+	height: 1.4rem;	
+}
+/*.triangle{
+	height : 0;
+    width : 0;
+    border-left : 0.66rem solid #26CE61;
+    border-right : 0.2rem solid transparent ;
+    border-bottom : 0.66rem solid transparent;
+    position: absolute;
+    top: 0 ;
+    left: 0;
+}*/
+/*.triangle span{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+    top: 0.2rem ;
+    left: -0.66rem;
+    font-family: bold;
+    font-size: 0.24rem;
+    color: #fff;
+    transform: rotate(270deg);
+}*/
+.list-r{
+	width: 5.2rem;
+	height: 3rem;
+	float: right;
+	margin-top: 0.4rem;
+}
+.list-r-t{
+	width: 5.2rem;
+	height: 1.4rem;
+	/*background: yellow;*/
+}
+.list-r-t-1{
+	width: 100%;
+	height: 0.46rem;
+	margin-bottom: 0.15rem;
+}
+.list-r-t-1 h3{
+	width: 4rem;
+	font-weight: 700;
+	color: #333;
+	font-size: 0.38rem;
+	line-height: 0.42rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	float: left;
+}
+.list-r-t-1 i{
+	display: inline-block;
+	width: 0.34rem;
+	height: 0.46rem;
+	float: right;
+	font-family: 700;
+	font-size: 0.34rem;
+	color: #999999;
+	line-height: 0.54rem;
+}
+.list-r-t-2{
+	width: 100%;
+	height: 0.3rem;
+	margin-bottom: 0.15rem;
+	overflow: hidden;
+}
+.list-r-t-2 img{
+	width: 1.3rem;
+	height: 0.2rem;
+	margin-top: 0.04rem;
+	float: left;
+}
+.list-r-t-2 span{
+	display: inline-block;
+	width: auto;
+	height: 0.3rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #666;
+	margin-left: 0.14rem;
+	line-height: 0.3rem;
+}
+.bird{
+	width: 1rem;
+	height: 0.3rem;
+	background: #0099FF;
+	float: right;
+	border-radius: 0.06rem;
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.list-r-t-3{
+	width: 100%;
+	height: 0.3rem;
+}
+.list-r-t-3-l{
+	width: auto;
+	height: 0.3rem;
+	float: left;
+}
+.list-r-t-3 span{
+	display: inline-block;
+	width: auto;
+	height: 0.3rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #666;
+	margin-right: 0.08rem;
+	line-height: 0.3rem;
+}
+.list-r-t-3-r{
+	width: auto;
+	height: 0.3rem;
+	float: right;
+}
+.list-r-b{
+	width: 5.2rem;
+	height: 1.4rem;
+	
+	margin-top: 0.1rem;
+}
+.list-r-b-1{
+	width: 5.2rem;
+	height: 0.3rem;
+}
+.list-r-b-1-l{
+	width: auto;
+	height: 0.3rem;
+	border: 0.01rem solid #ddd;
+	border-radius: 0.08rem;
+	color:rgb(102,102,102);
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	text-align: center;	
+	float: left;
+}
+.list-r-b-1 img{
+	width: 0.2rem;
+	height: 0.2rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.05rem;
+}
+.list-r-b-1 span{
+	display: inline-block;
+	width: 1.6rem;
+	height: 0.3rem;
+	float: left;
+	/*margin-left: 0.1rem;*/
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+	text-align: center;	
+	color: #E9440A;
+}
+.list-r-b-2{
+	width: 5.2rem;
+	height: 0.46rem;
+	margin-top: 0.2rem;
+	border-top:0.01rem dashed #F2F2F2;
+}
+.list-r-b-2 i{
+	display: inline-block;
+	width: 0.30rem;
+	height: 0.28rem;
+	color: #F07373;
+	float: left;
+	margin-top: 0.08rem;
+	font-size: 0.24rem;
+	line-height: 0.28rem;
+	text-align:  center;
+}
+.list-r-b-2 span{
+	display: inline-block;
+	width: 3rem;
+	height: 0.40rem;
+	float: left;
+	font-size: 0.24rem;
+	color:rgb(102,102,102);
+	line-height: 0.46rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-left:0.16rem;
+}
+.list-r-b-3{
+	width: 5.2rem;
+	height: 0.46rem;
+}
+.list-r-b-3 i{
+	display: inline-block;
+	width: 0.30rem;
+	height: 0.30rem;
+	color: #70BC46 ;
+	float: left;
+	margin-top: 0.08rem;
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+	text-align:  center;
+}	
+.list-r-b-3 span{
+	display: inline-block;
+	width: 3rem;
+	height: 0.4rem;
+	float: left;
+	font-size: 0.24rem;
+	color:rgb(102,102,102);
+	line-height: 0.46rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-left:0.16rem;
+}
+/*roll结束*/
+/*套餐结束*/

@@ -1,0 +1,326 @@
+@import url('base.css');
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+}
+body{
+	background: #F5F5F5;
+}
+/*我的开始*/
+.header{
+	width: 100%;
+	height: 0.92rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	overflow: hidden;
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	z-index: 900;
+}
+.header-c{
+	width: 92%;
+	height: 0.72rem;
+	margin: 0.1rem auto;
+} 
+.header-c img{
+	width: 0.34rem;
+	height: 0.54rem;
+	float: left;
+	margin-top: 0.09rem;
+}
+.header-c span{
+	display: block;
+	width: 1.4rem;
+	height: 0.72rem;
+	margin: 0 auto;
+	font-size: 0.44rem;
+	font-weight: 700;
+	color: #fff;
+	line-height: 0.72rem;
+	text-align: center;
+} 
+/*我的结束*/
+/*信息开始*/
+.Info{
+	width: 100%;
+	height: 2.68rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	margin-top: 0.9rem;
+	overflow: hidden;
+}
+.info{
+	width: 92%;
+	height: 1.68rem;
+	margin: 0.5rem auto;
+}
+.info-l{
+	width:  1.68rem;
+	height: 1.68rem;
+	float: left;
+	border-radius: 50%;	
+}
+.info-l img{
+	width:  1.68rem;
+	height: 1.68rem;
+	border-radius: 50%;	
+}
+.info-c{
+	width: 4.36rem;
+	height: 0.94rem;
+	margin-top: 0.32rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.info-c p{
+	width: auto;
+	height: 0.5rem;
+	margin-top: 0.08rem;
+	font-size: 0.4rem;
+	font-weight: 700;
+	line-height: 0.5rem;
+	color: #fff;
+	margin-bottom: 0.1rem;
+}
+.info-c i{
+	display: block;
+	width: 0.22rem;
+	height: 0.28rem;
+	float:left;
+	margin-top: 0.03rem;
+	font-size: 0.14rem;
+	font-weight: 400;
+	color: #fff;
+	line-height: 0.28rem;
+}
+.info-c span{
+	display: block;
+	width: 1.5rem;
+	height: 0.28rem;
+	float:left;
+	font-size: 0.24rem;
+	font-weight: 400;
+	color: #fff;
+	line-height: 0.28rem;
+}
+.info-r{
+	width: 0.24rem;
+	height: 0.94rem;
+	margin-top: 0.37rem;
+	float: right;
+}
+.info-r i{
+	display: block;
+	width: 0.24rem;
+	height: 0.94rem;
+	font-size: 0.24rem;
+	font-weight: 400;
+	color:#fff;
+	line-height: 0.94rem;
+	text-align: right;
+}
+/*信息结束*/
+/*钱包开始*/
+.money{
+	width:100%;
+	height: 1.68rem;
+}
+.money ul{
+	width: 7.5rem;
+	height: 1.68rem;
+	display: flex;
+	background: #fff;
+	justify-content: space-between;
+	border-bottom: 0.01rem solid #EEEEEE;
+}
+.money ul li{
+	width: 2.5rem;
+	height: 1.68rem;
+	border-right: 0.01rem solid #EEEEEE;
+}
+.money ul li:last-child{
+	border-right: 0;
+}
+
+.money ul li h3{
+	width: 2.4rem;
+	height: 0.5rem;
+	margin-top: 0.46rem;
+	margin-bottom: 0.18rem;
+	color: rgb(0,152,251);
+	font-size: 0.48rem;
+	font-weight: 700;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.money ul li:nth-child(2) h3{
+	color: #FF5F3E;
+}
+.money ul li:nth-child(3) h3{
+	color: #6AC20B;
+}
+.money ul li h3 span{
+	font-size: 0.28rem;
+	line-height: 0.32rem;
+	font-weight: 400;
+}
+.money ul li em{
+	display: block;
+	width: 2.4rem;
+	height: 0.28rem;
+	color:#666;
+	font-weight: 700;
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	text-align: center;
+}
+/*钱包结束*/
+/*我的地址开始*/
+.adress{
+	width: 100%;
+	height: 0.9rem;
+	margin-top: 0.29rem;
+	border-top: 0.01rem solid #E9E9E9;
+	border-bottom: 0.01rem solid #E9E9E9;
+	background: #fff;
+}
+.adr{
+	width: 6.92rem;
+	height: 0.88rem;
+	margin: 0 auto;
+}
+.adr a{
+	display: inline-block;
+	width: 6.92rem;
+	height: 0.88rem;
+}
+.adr a i{
+	display: inline-block;
+	width: 0.36rem;
+	height: 0.88rem;
+	color:rgb(74,165,240);
+	font-size: 0.36rem;
+	line-height: 0.88rem;
+	float: left;
+}
+.adr-r{
+	width: 6.4rem;
+	height: 0.88rem;
+	float: right;
+}
+.adr-r span{
+	display:block;
+	width: 4rem;
+	height: 0.88rem;
+	font-size: 0.36rem;
+	line-height: 0.88rem;
+	color: #333;
+	font-weight:500;
+	float: left;
+}
+.adr .adr-r i{
+	display: block;
+	width:auto;
+	height:0.88rem;
+	font-size: 0.34rem;
+	color:#333;
+	line-height: 0.88rem;
+	text-align: right;
+	float: right;
+}
+/*我的地址结束*/
+/*金币商城开始*/
+.gold{
+	width: 100%;
+	height: 1.8rem;
+	margin-top: 0.29rem;
+	border-top: 0.01rem solid #E9E9E9;
+	border-bottom: 0.01rem solid #E9E9E9;
+	background: #fff;
+}
+.gold .adr{
+	border-bottom: 0.01rem solid #F9F9F9;
+}
+#sc{
+	color: #94D94A
+}
+#lw{
+	color: #FDAC93;
+}
+/*金币商城结束*/
+.service{
+	width: 100%;
+	height: 1.8rem;
+	margin-top: 0.29rem;
+	border-top: 0.01rem solid #E9E9E9;
+	border-bottom: 0.01rem solid #E9E9E9;
+	background: #fff;
+}
+.service .adr{
+	border-bottom: 0.01rem solid #F9F9F9;
+}
+#kf{
+	color: #4DA6F0;
+}
+#elm{
+	color:#3CABFF;
+}
+/*底部导航栏开始*/
+.bottom{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	position: fixed;
+	left: 29;
+	bottom: -0.03rem;	
+	z-index: 900;
+	border-top: 0.02rem solid #CBCBCB;
+}
+.bottom ul{
+	width: 92%;
+	height: 1.5rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.bottom ul li{
+	width: 1.7rem;
+	height: 1.4rem;
+}
+.bottom ul li a{
+	display: inline-block;
+	width:100%;
+	height: 100%;
+}
+.bottom ul li a i{
+	display: block;
+	width: 0.52rem;
+	height: 0.52rem;
+	margin: 0.3rem auto 0;
+	font-size: 0.52rem;
+	color: #878787;
+	line-height: 0.52rem;
+	text-align: center;
+}
+.bottom ul li:nth-child(4) a i{
+	color: #0093FF;
+}
+.bottom ul li a span{
+	display: block;
+	width: 1rem;
+	height: 0.42rem;
+	margin: 0.06rem auto;
+	font-size: 0.28rem;
+	color: #878787;
+	line-height: 0.42rem;
+	text-align: center;
+}
+.bottom ul li:nth-child(4) a span{
+	color: #0093FF;
+}
+/*底部导航栏结束*/

@@ -1,0 +1,447 @@
+@import url(base.css);
+/*header 开始*/
+header{
+	padding: 0.15rem 0.34rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: 0.87rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+header>a>i{
+	display: block;
+	color: #fff;
+}
+/*header 结束*/
+/* address 开始*/
+.address{
+	margin-top: 0.86rem;
+	width: 100%;
+	height: 3.07rem;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	position: relative;
+	padding-left: 0.51rem;
+	box-sizing: border-box;
+}
+.address .address_top{
+	width: 2.29rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.28rem;
+	color: #fff;
+	margin-bottom: 0.15rem;
+}
+.address .address_top .addressInfo{
+	display: inline-block;
+	width: 0.61rem;
+	height: 0.19rem;
+	line-height: 0.19rem;
+	font-size: 0.18rem;
+	text-align: center;
+	border-radius: 0.1rem;
+	border: 0.01rem solid #f9ced6;
+	color: #f9ced6;
+	margin-left: 0.22rem;
+}
+.address .x_address{
+	height: 0.54rem;
+	line-height: 0.54rem;
+	font-size: 0.38rem;
+	color: #fff;
+}
+.address .userInfo{
+	height: 0.44rem;
+	line-height: 0.44rem;
+	color: #fff;
+	font-size: 0.28rem;
+}
+.address .userInfo .userName{
+	margin-right: 0.64rem;
+}
+/* orderInfo 开始 */
+.orderInfo{
+	width: 6.83rem;
+	height: 8.92rem;
+	/* background: red; */       
+	position: absolute;
+	top: 1.72rem;
+	/* bottom: 1.36rem; */
+	left: 0;
+	right: 0;
+	margin-left:auto ;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.orderInfo .order_top{
+	flex-shrink: 0;
+	height: 2.24rem;
+	width: 100%;
+	background: #fff;
+	border-radius: 0.08rem;
+	box-shadow: 0 0.03rem 0.05rem 0.02rem rgba(0, 0, 0, 0.3);
+	padding: 0.17rem 0.15rem;
+	box-sizing: border-box;
+}
+.orderInfo .order_top .order_top_t{
+	width: 6.39rem;
+	height: 1.18rem;
+	border-bottom: 0.01rem dashed #808080;
+	overflow: hidden;
+	/* margin-bottom: 0.24rem; */
+}
+.orderInfo .order_top .order_top_t>h4{
+	font-size: 0.2rem;
+	color: #0af;
+}
+.order_top_t .order_time{
+	margin-top: 0.28rem;
+	margin-bottom: 0.16rem;
+	width: 6.43rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	display: flex;
+	justify-content: space-between;
+}
+.order_top_t .order_time .order_time_title{
+	display: block;
+	font-size: 0.32rem;
+	color: #000;
+}
+.order_top_t .order_time .order_will_time{
+	display: block;
+	font-size: 0.24rem;
+	font-weight: 700;
+	color: #0085ff;
+}
+.orderInfo .order_top .order_top_b{
+	width: 6.41rem;
+	height: 0.65rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.orderInfo .order_top .order_top_b .payfun{
+	display: block;
+	font-size: 0.32rem;
+}
+.orderInfo .order_top .order_top_b .payfun1{
+	display: block;
+	font-size: 0.28rem;
+	font-weight: 700;
+	color: #333;
+}
+.orderInfo .order_top .order_top_b .payfun1>i{
+	color: #666;
+}
+.orderInfo .order_center{
+	flex-shrink: 0;
+	height: 3.78rem;
+	width: 100%;
+	background: #fff;
+	border-radius: 0.08rem;
+	box-shadow: 0 0.02rem 0.03rem 0.02rem rgba(0, 0, 0, 0.3);
+	padding: 0.13rem 0.25rem 0 0.18rem;
+	box-sizing: border-box;
+}
+.orderInfo .order_center>ul{
+	width: 100%;
+	height: 100%;
+}
+.orderInfo .order_center>ul>li{
+	width: 100%;
+	height: 0.64rem;
+	border-bottom: 0.01rem dashed #808080;
+}
+.orderInfo .order_center>ul>li:first-child{
+	font-size: 0.32rem;
+	color: #000;
+	line-height: 0.64rem;
+}
+.orderInfo .order_center>ul>li:nth-child(2){
+	padding-right: 0.42rem;
+	box-sizing: border-box;
+	height:1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.orderInfo .order_center>ul>li:nth-child(2)>img{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.orderInfo .order_center>ul>li:nth-child(2)>h2{
+	width: 2.14rem;
+	font-size: 0.28rem;
+	color: #282828;
+	text-align: right;
+}
+.orderInfo .order_center>ul>li:nth-child(2)>span{
+	display: block;
+	width: 0.68rem;
+	height: 0.33rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.orderInfo .order_center>ul>li:nth-child(2)>span>i{
+	display:block;
+	transform: rotateZ(45deg);
+	width: 0.33rem;
+	height: 0.33rem;
+	color: #e63c5a;
+}
+.orderInfo .order_center>ul>li:nth-child(2)>span>em{
+	display: block;
+	font-size: 0.28rem;
+	color: #000;
+
+}
+.orderInfo .order_center>ul>li:nth-child(2)>h3{
+	width: 1.65rem;
+	font-size: 0.3rem;
+	color: #e63c5a;
+	text-align: right;
+}
+.orderInfo .order_center>ul>li:nth-child(3){
+	height: 0.86rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.orderInfo .order_center>ul>li:nth-child(3)>span{
+	display: block;
+	font-size: 0.28rem;
+	color: #282828;
+}
+.orderInfo .order_center>ul>li:nth-child(3)>a{
+	display: block;
+	font-size: 0.22rem;
+	color: #282828;
+}
+.orderInfo .order_center>ul>li:nth-child(3)>a>i{
+	vertical-align: -0.03rem;
+	color: #666;
+	margin-left: 0.08rem;
+}
+.orderInfo .order_center>ul>li:last-child{
+	height: 0.86rem;
+	border-bottom:none;
+	padding-right: 0.41rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.orderInfo .order_center>ul>li:last-child>span{
+	display: block;
+	font-size: 0.28rem;
+	color: #282828;
+}
+.orderInfo .order_center>ul>li:last-child>span:last-child{
+	display: block;
+	font-size: 0.30rem;
+	color: #e63c5a;
+}
+
+
+
+
+.orderInfo .order_bottom{
+	flex-shrink: 0;
+	height: 1.76rem;
+	width: 100%;
+	background: #fff;
+	border-radius: 0.08rem;
+	box-shadow: 0 0.02rem 0.03rem 0.02rem rgba(0, 0, 0, 0.3);
+	padding: 0 0.26rem 0 0.17rem;
+	box-sizing: border-box;
+}
+.orderInfo .order_bottom>ul{
+	width: 100%;
+	height: 100%;
+}
+.orderInfo .order_bottom>ul>li{
+	width: 100%;
+	height: 0.87rem;
+	line-height: 0.87rem;
+	display: flex;
+	justify-content: space-between;
+}
+.orderInfo .order_bottom>ul>li>span{
+	display: block;
+	font-size: 0.28rem;
+	color: #282828;
+}
+.orderInfo .order_bottom>ul>li>a{
+	display: block;
+	font-size: 0.22rem;
+	color: #282828;
+}
+.orderInfo .order_bottom>ul>li>a>i{
+	color: #666;
+	margin-left: 0.08rem;
+	vertical-align: -0.03rem;
+}
+.orderInfo .order_bottom>ul>li:first-child{
+	border-bottom: 0.01rem dashed #808080;
+}
+/* orderInfo 结束 */
+/* address 结束*/
+/* footer 开始 */
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #434343;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+}
+.mon_info{
+	width: 70%;
+	height: 100%;
+	background:#434343; 
+	/* position: relative; */
+	padding-left: 0.53rem;
+	box-sizing: border-box;
+}
+.mon_info>h2{
+	height: 100%;
+	line-height: 0.98rem;
+	font-size: 0.3rem;
+	color: #e63c5a;
+}
+.go{
+	/* float: right; */
+	width: 30%;
+	height: 100%;
+	background: #e63c5a;
+	font-size: 0.28rem;
+	line-height: 0.98rem;
+	text-align: center;
+	
+	font-family: "黑体";
+}
+.go>a{
+	display: block;
+	color: #fff;
+}
+/* footer 结束*/
+/* 支付成功界面 开始 */
+.paysucc{
+	width: 100%;
+	height: 13.36rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.85);
+	z-index: 9999;
+}
+
+.paysucc .paysucc_main{
+	height: 60%;
+	width: 7.72rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+} 
+.paysucc .paysucc_main .paysucc_main_top{
+	height: 1.70rem;
+	width: 100%;
+	border-bottom: 0.01rem solid #d8d8d8;
+	position: relative;
+}
+.paysucc .paysucc_main .paysucc_main_top .help{
+	width: 0.31rem;
+	height: 0.31rem;
+	position: absolute;
+	top:0.5rem;
+	right: 0.5rem;
+}
+.paysucc .paysucc_main .paysucc_main_top .jiaoyi{
+	width: 2.2rem;
+	height: 1.7rem;
+	margin: 0 auto;
+	padding-top: 0.58rem;
+	padding-bottom: 0.22rem;
+	box-sizing: border-box;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.paysucc .paysucc_main .paysucc_main_top .jiaoyi>h2{
+	font-size: 0.32rem;
+	color: #070707;
+}
+.paysucc .paysucc_main .paysucc_main_top .jiaoyi>h3{
+	font-family: "San Francisco Display";
+	font-size: 0.14rem;
+	color: #060606;
+}
+.paysucc_main_bottom{
+	width: 100%;
+	height: 6rem;
+	padding-top: 0.49rem;
+	box-sizing: border-box;
+}
+.paysucc_main_bottom>h2{
+	text-align: center;
+	font-size: 0.32rem;
+	color: #dc3250;
+	margin-bottom: 0.25rem;
+}
+.paysucc_main_bottom>h3{
+	text-align: center;
+	font-size: 0.28rem;
+	color: #333;
+	margin-bottom: 0.5rem;
+}
+.paysucc_main_bottom .success{
+	display: block;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0 auto 0.62rem;
+}
+.paysucc_main_bottom>ul{
+	margin: 0 auto 1.14rem;
+	width: 4.75rem;
+	height: 0.41rem;
+	display: flex;
+	justify-content: space-between;
+}
+.paysucc_main_bottom>ul>li{
+	width: 1.32rem;
+	height: 100%;
+	background: linear-gradient(90deg,#0af,#0085ff);
+	border-radius: 0.16rem;
+	font-size: 0.2rem;
+	line-height: 0.44rem;
+	text-align: center;
+}
+.paysucc_main_bottom>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+}
+.paysucc_main_bottom>h4{
+	text-align: center;
+	font-size: 0.20rem;
+	color: #666;
+	margin-bottom: 0.43rem;
+}
+.paysucc_main_bottom .next{
+	display: block;
+	margin: 0 auto;
+	width: 0.36rem;
+	height: 0.34rem;
+}
+/* 支付成功界面 结束 */

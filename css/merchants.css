@@ -1,0 +1,605 @@
+@import url('base.css');
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #fff;
+}
+/*头部开始*/
+header{
+	width: 100%;
+	height: 5rem;
+	/*background: #fff;*/
+}
+.header-t{
+	width: 100%;
+	height: 2rem;
+	/*background: url("../img/merchant-top-1.webp") no-repeat center;*/
+	/*background: cover;*/
+	background: #C4B63C;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-t a{
+	display: block;
+	width: 0.34rem;
+	height: 0.34rem;
+	margin-top: 0.12rem;
+	margin-left: 0.29rem;
+}
+.header-t i{
+	display: block;
+	width: 0.34rem;
+	height: 0.34rem;
+	font-size: 0.28rem;
+	color:#fff;
+	line-height: 0.34rem;
+	font-weight: 400;
+}
+.header-b{
+	width: 92%;
+	height: 3rem;
+	margin: 0 auto;
+	position: relative;
+}
+.header-b-1{
+	width: 1.5rem;
+	height: 1.5rem;
+	position: absolute;
+	left: 2.71rem;
+	top: -1.2rem;
+}
+.kong{
+	width: 100%;
+	height: 0.6rem;
+}
+.header-b-2{
+	width: 4.9rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+}
+.header-b-2-t{
+	width: 4.34rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+}
+.header-b-2-t span{
+	width: auto;
+	height: 0.5rem;
+	float: left;
+	font-size: 0.4rem;
+	font-weight: 700;
+	color: #333;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.header-b-2-t i{
+	width: 0.3rem;
+	height: 0.5rem;
+	float:left;
+	font-size: 0.3rem;
+	font-weight: 700;
+	color: rgba(0,0,0,.67);
+	line-height: 0.52rem;
+	text-align: center;
+}
+.header-b-2-b{
+	width: 4.54rem;
+	height: 0.3rem;
+	font-size: 0.24rem;
+	color:#666;
+	line-height: 0.3rem;
+	margin: 0 auto;
+}
+.header-b-2-b span{
+	width:auto;
+	height: 0.3rem;
+	float: left;
+	margin-right:0.3rem;
+}
+.header-b-2-b span:last-child{
+	margin-right:0;
+}
+.header-b-3{
+	width:6rem;
+	height: 0.3rem;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+	overflow: hidden;
+}
+.header-b-3-l{
+	width: 0.54rem;
+	height:0.26rem;
+	background:#F07373;
+	margin-top: 0.02rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.26rem;
+	text-align: center;
+	font-weight: 400;
+}
+.header-b-3 h3{
+	width: auto;
+	height: 0.26rem;
+	float:left;
+	margin-top: 0.02rem;
+	font-size: 0.24rem;
+	color: #666;
+	line-height: 0.26rem;
+	text-align: center;
+	margin-left: 0.2rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.header-b-3-r{
+	width: 1.28rem;
+	height: 0.26rem;
+	float: right;
+	margin-top: 0.02rem;
+	font-size: 0.24rem;
+	color: #999999;
+	line-height: 0.26rem;
+}
+.header-b-3-r span{
+	display: block;
+	width: auto;
+	height: 0.26rem;
+	float:left;
+}
+.header-b-3-r i{
+	display: block;
+	width: 0.26rem;
+	height: 0.26rem;
+	float:right;
+}
+.header-b p{
+	width: 6rem;
+	height: 0.32rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	color: #999999;
+	line-height: 0.32rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+/*头部结束*/
+/*点餐开始*/
+.order{
+	width: 100%;
+	height: 0.85rem;
+	margin-bottom: 0.2rem;
+}
+.order ul{
+	width: 6.92rem;
+	height: 0.85rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.01rem solid #f5f5f5;
+}
+.order ul li{
+	width: 2.3rem;
+	height: 0.8rem;
+}
+.order ul li a{
+	display:block;
+	width: 2.3rem;
+	height: 0.8rem;
+}
+.order ul li a p{
+	width:0.6rem;
+	height:0.8rem;
+	margin:0 auto;
+	color:#333;
+	font-size: 0.3rem;
+	line-height: 0.8rem;
+}
+/*.order ul li:first-child{
+	font-weight: 700;
+	color:#333;
+}*/
+.order ul li a p span{
+	display: block;
+	width:0.6rem;
+	height:0.04rem;
+	background:#2395FF;
+	display: none;
+}
+.order ul li a p:hover span{
+	display: block;
+}
+.order ul li a p:active span{
+	display: block;
+}
+.order ul li a:hover p{
+	font-weight: 700;
+	color:#333;
+}
+/*点餐结束*/
+/*商家推荐滚动开始*/
+.Roll{
+	width: 100%;
+	height: 6.08rem;
+	overflow-y: auto;
+}
+.Roll::-webkit-scrollbar{
+	height: 0;
+	width: 0;
+}
+.roll{
+	width: 7.5rem;
+	height: auto;
+	margin: 0 auto;
+}
+.roll-top{
+	width: 7.5rem;
+	height: 4.65rem;
+}
+.roll-top span{
+	display: block;
+	width: 7rem;
+	height: 0.38rem;
+	margin-left: 0.29rem;
+	font-size: 0.3rem;
+	color:#333;
+	font-weight: 700;
+	line-height: 0.38rem;
+	margin-bottom: 0.2rem;
+}
+.roll-top-auto{
+	width: auto;
+	height:4.08rem;
+	display: flex;
+	justify-content: space-between;
+	overflow-x: auto;
+}
+.roll-top-auto::-webkit-scrollbar{
+	height: 0;
+	width: 0;
+}
+.roll-top-auto li{
+	width: 2.4rem;
+	height: 4rem;
+	flex-shrink: 0;
+	flex-direction: column;
+	margin-right: 0.2rem;	
+}
+.roll-top-auto li a{
+	display:block;
+	width: 2.4rem;
+	height: 4rem;
+	flex-shrink: 0;
+	flex-direction: column;	
+}
+.roll-top .roll-top-auto li a img{
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-bottom: 0.2rem;
+}
+.roll-top .roll-top-auto li a h3{
+	width: 2.4rem;
+	height: 0.34rem;
+	margin-bottom: 0.1rem;
+	color: #333;
+	font-size: 0.3rem;
+	font-weight: 400;
+	line-height: 0.34rem;
+}
+.roll-top .roll-top-auto li a p{
+	display: block;
+	width: 2.4rem;
+	height: 0.24rem;
+	margin-bottom: 0.2rem;
+	color: #999;
+	font-size: 0.24rem;
+	font-weight: 400;
+	line-height: 0.24rem;
+}
+.roll-top .roll-top-auto li a h4{
+	display:block;
+	width: auto;
+	height: 0.44rem;
+	color: #ff5330;
+	font-size: 0.34rem;
+	font-weight: 400;
+	line-height: 0.44rem;
+	float: left;
+}
+.roll-top .roll-top-auto li a i{
+	display:block;
+	width: 0.44rem;
+	height: 0.44rem;
+	float: right;
+	font-size: 0.38rem;
+	color:#2396ff;
+	line-height: 0.44rem;
+	text-align: right;
+}
+.roll-left{
+	width: 1.54rem;
+	height: 6rem;
+	overflow-y: auto;
+	float: left;
+	background: #f5f5f5;
+}
+.roll-left::-webkit-scrollbar{
+	height: 0;
+	width: 0;
+}
+.roll-left ul{
+	width: 1.54rem;
+	height: auto;
+}
+.roll-left ul li{
+	width: 1.54rem;
+	height: 0.98rem;
+	flex-shrink: 0;
+}
+.roll-left ul li a{
+	display: block;
+	width: 1.54rem;
+	height: 0.98rem;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+.roll-left ul li a img{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: #fff;
+	margin-left: 0.29rem;
+	margin-top: 0.36rem;
+	float: left;
+}
+.roll-left ul li a p{
+	width: 100%;
+	height: 0.34rem;
+	float: left;
+	margin-top: 0.32rem;
+	font-size: 0.26rem;
+	color:#333;
+	line-height: 0.34rem;
+	text-align: center;
+	/*margin-left: 0.2rem;*/
+}
+.roll-left ul li:nth-child(1) a p{
+	width: auto;
+	height: 0.34rem;
+	margin-left: 0.16rem;
+}
+.roll-left ul li:nth-child(2) a p{
+	width: auto;
+	height: 0.34rem;
+	margin-left: 0.16rem;
+}
+.roll-right{
+	width: 5.96rem;
+	height: 3rem;
+	float:right;
+	overflow-y: 0;
+}
+.roll-right::-webkit-scrollbar{
+	height: 0;
+	width: 0;
+}
+.roll-right-auto{
+	width: 5.96rem;
+	height: auto;
+	overflow-y: 0;
+}
+.roll-right-auto strong{
+	display: block;
+	width: auto;
+	height: 0.48rem;
+	float:left;
+	font-weight: 700;
+	color:#666;
+	font-size: 0.28rem;
+	line-height: 0.48rem;
+	margin-left:0.29rem;
+}
+.roll-right-auto span{
+	display: block;
+	width: auto;
+	height: 0.48rem;
+	float: left;
+	color:#999;
+	font-size: 0.2rem;
+	line-height: 0.48rem;
+	margin-left:0.2rem;
+}
+.roll-right-auto ul{
+	width: 5.96rem;
+	height: auto;
+	overflow: hidden;
+}
+.roll-right-auto ul li{
+	width: 5.38rem;
+	height: 1.56rem;
+	margin: 0 auto;
+	flex-shrink: 0;
+}
+.roll-right-auto-l{
+	width: 1.26rem;
+	height: 1.26rem;
+	background: red;
+	float: left;
+	margin-top: 0.15rem;
+}
+.roll-right-auto-l img{
+	width: 1.26rem;
+	height: 1.26rem;
+}
+.roll-right-auto-r{
+	width: 3.94rem;
+	height: 1.26rem;
+	float: right;
+	margin-top: 0.15rem;
+}
+.roll-right-auto-r h2{
+	width: auto;
+	height: 0.28rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 700;
+	font-size: 0.28rem;
+	color:#333;
+	line-height: 0.28rem;
+	margin-bottom: 0.06rem;
+}
+.roll-right-auto-r p{
+	width: auto;
+	height: 0.24rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 400;
+	font-size: 0.22rem;
+	color:#999;
+	line-height: 0.24rem;
+}
+.roll-right-auto-r span{
+	width: auto;
+	height: 0.24rem;
+	font-weight: 400;
+	font-size: 0.22rem;
+	color:#eb6551;
+	line-height: 0.24rem;
+	text-align: left;
+	margin-left: 0;
+}
+#text-2{
+	margin-top: 0.1rem;
+	width:100%;
+	height: 0.24rem;
+}
+#text-2 span{
+	float: left;
+	margin-right: 0.1rem;
+}
+.roll-right-auto-r h3{
+	width: auto;
+	height: 0.32rem;
+	font-weight: 500;
+	font-size: 0.3rem;
+	color:#ff5339;
+	line-height: 0.36rem;
+	float: left;
+}
+.roll-right-auto-r del{
+	width: auto;
+	height: 0.28rem;
+	font-weight: 400;
+	font-size: 0.22rem;
+	color:#999;
+	line-height: 0.28rem;
+	float:left;
+	margin-top: 0.08rem;
+	margin-left: 0.04rem;
+}
+.roll-right-auto-r i{
+	display:block;
+	width: 0.44rem;
+	height: 0.44rem;
+	float: right;
+	font-size: 0.38rem;
+	color:#2396ff;
+	line-height: 0.44rem;
+	text-align: right;
+	margin-top: -0.03rem;
+}
+/*商家推荐滚动结束*/
+/*选购商品底部开始*/
+footer{
+	width: 100%;
+	height: 1.41rem;
+	background: rgba(61,61,63,0.9);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+.footer-l{
+	width: 1.41rem;
+	height: 1.41rem;
+	background: #363636;
+	border-radius: 50%;
+	border: 0.14rem solid #444444;
+	float:left;
+	position: absolute;
+	top: -0.29rem;
+	left: 0.34rem;
+}
+.footer-l i{
+	display: block;
+	width: 0.9rem;
+	height: 0.9rem;
+	font-size: 0.6rem;
+	line-height: 0.9rem;
+	text-align: center;
+	color: #5F5F63;
+	margin-left:0.12rem;
+	margin-top: 0.14rem;
+	/*margin: 0.25rem 0.2rem;*/
+	/*background: #fff;*/
+	float: left;
+}
+.footer-c{
+	width: auto;
+	height: 1.41rem;
+	float: left;
+	margin-left: 1.9rem;
+}
+.footer-c h3{
+	width: auto;
+	height: 0.56rem;
+	font-size: 0.36rem;
+	color: #999;
+	line-height: 0.56rem;
+	font-weight: 400;
+	margin-top: 0.2rem;
+}
+.footer-c span{
+	display: block;
+	width: auto;
+	height: 0.38rem;
+	color: #999;
+	line-height: 0.38rem;
+	font-weight: 400;
+	font-size: 0.24rem;
+}
+.footer a{
+	display: block;
+	width: 2.6rem;
+	height: 1.41rem;
+	background: #535356;
+	float: right;
+}
+.footer a:hover{
+	background:#0085FF;
+}
+.footer a span{
+	display: block;
+	width: auto;
+	height: 0.68rem;
+	margin: 0.36rem auto;
+	font-size: 0.38rem;
+	color: #fff;
+	line-height: 0.68rem;
+	text-align: center;
+	font-weight: 700;
+}
+/*选购商品底部结束*/
